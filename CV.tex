@@ -235,7 +235,7 @@
 
     \resumeProject
       {\href{https://github.com/kand1bober/DSL}{\textcolor{olive}{DSL для RISCV-32IM}}} %Project Name
-      {генерациия интерпретатора, декодера и тестов, основываясь на описании ISA на Ruby}
+      {генерациия интерпретатора, декодера и тестов, основываясь на Ruby-based описании ISA}
 
       \resumeItemListStart
         \item {Ruby, C++, Python}
@@ -268,6 +268,7 @@
       {} %Project Name, Location Name
 
       \resumeItemListStart
+        \item реализация хеш-таблицы c различными хеш-функциями
         \item {инструменты: C, make, asm, perf}
         \item {интринсики SSE2 \textbackslash \text{AVX} \textbackslash \text{AVX2}, Профилирование, Оптимизация}
     \resumeItemListEnd
@@ -279,6 +280,7 @@
       {} %Project Name, Location Name
 
       \resumeItemListStart
+        \item реализация алгоритма для построения и отрисовки множества Мандельброта
         \item {инструменты: C, make}
         \item {SFML, интринсики SSE2 \textbackslash \text{AVX} \textbackslash \text{AVX2}, Оптимизация}
     \resumeItemListEnd
@@ -287,20 +289,24 @@
     
     \resumeProject
       {\href{https://github.com/kand1bober/Differenciator}{\textcolor{olive}{Дифференциатор}}} %Project Name
-      {} %Project Name, Location Name
+      {программа производит дифференцирование функций одной переменной} %Project Name, Location Name
 
-      \resumeItemListStart
-        \item {Реализация Древовидной структуры данных}
+      \resumeItemListStart 
+        \item {реализация древовидной структуры данных}
+        \item считывание и разбор входной функции методом рекурсивного спуска  
+        \item {dump продифференцированного выражения в tex-файл}
         \item {инструменты: C, dot, make}
     \resumeItemListEnd
     \vspace{-2mm}
 
     \resumeProject
       {\href{https://github.com/kand1bober/Akinator}{\textcolor{olive}{Акинатор}}} %Project Name
-      {} %Project Name, Location Name
+      {упрощенная версия игры Акинатор} %Project Name, Location Name
 
       \resumeItemListStart
-        \item {Реализация Древовидной структуры данных}
+        \item {реализация древовидной структуры данных}
+        \item {сохранение базы данных известных игре персонажей}
+        \item {добавление в базу данных новых персонажей}
         \item {инструменты: C, dot, make}
     \resumeItemListEnd
     \vspace{-2mm}
