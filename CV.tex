@@ -150,7 +150,7 @@
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%
 %%%%%% DEFINE ELEMENTS HERE %%%%%%%
 \newcommand{\name}{Вячеслав Курневич} % Your Name
-\newcommand{\course}{ФРКТ} % Your Program
+\newcommand{\course}{МФТИ ФРКТ} % Your Program
 \newcommand{\roll}{2} % Your Roll No.
 \newcommand{\phone}{+79263314005} % Your PhoneNumber
 \newcommand{\emaila}{kurnevich.vv@phystech.edu} %Email 1
@@ -173,14 +173,13 @@
 \begin{tabularx}{\linewidth}{L r} \\
   \textbf{\Large \name} & {\raisebox{0.0\height}{\footnotesize \faPhone}\ \phone}\\
   {\course, \roll \text{ курс}} & \href{mailto:\emaila}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ {\emaila}} \\
-   &  \href{https://github.com/kand1bober/}{\raisebox{0.0\height}{\footnotesize \faGithub}\ \textcolor{olive}{{GitHub}}} \\
+  Ищу стажировку по системному программированию &  {\raisebox{0.0\height}{\footnotesize \faTelegram}\ {@Testomes27}} \\
+   Английский: B2 &  \href{https://github.com/kand1bober/}{\raisebox{0.0\height}{\footnotesize \faGithub}\ \textcolor{olive}{{GitHub}}} \\
 \end{tabularx}
 }
 % \parbox{3.0cm}{%
 % \flushright \includegraphics[width=2cm,clip]{nitp_logo.png}
 % }
-
-
 
 
 % %-----------EDUCATION-----------
@@ -254,7 +253,7 @@
 
     \resumeProject
       {\href{https://github.com/kand1bober/chat}{\textcolor{olive}{Чат на POSIX real-time сигналах}}, \href{https://github.com/kand1bober/my_cp}{\textcolor{olive}{my\_bash}}, \href{https://github.com/kand1bober/my_cp}{\textcolor{olive}{my\_cp}}} %Project Name
-      {наиболее интересные задачи с семинаров} %Project Name, Location Name
+      {наиболее интересные задачи с семинаров по программированию} %Project Name, Location Name
       
       \resumeItemListStart
         \item {C, системные вызовы}
@@ -262,6 +261,18 @@
     \vspace{-2mm}
 
 \section{\textbf{Учебные проекты, 1 курс}}
+    
+    \resumeProject
+      {\href{https://github.com/kand1bober/OOSD-Language}{\textcolor{olive}{Компилятор}}} %Project Name
+      {компилятор для свеого языка программирования} %Project Name, Location Name
+
+      \resumeItemListStart
+        \item {синтаксический разбор кода методом рекурсивного спуска, построение AST}
+        \item {трансляция узлов AST и таблицы имен в x86-64 ассемблер}
+        \item {инструменты: C, dot, make}
+    \resumeItemListEnd
+    \vspace{-2mm}
+    
 
     \resumeProject
       {\href{https://github.com/kand1bober/HashTable-Optimization}{\textcolor{olive}{Оптимизация поиска данных в хеш-таблице}}} %Project Name
@@ -270,7 +281,8 @@
       \resumeItemListStart
         \item реализация хеш-таблицы c различными хеш-функциями
         \item {инструменты: C, make, asm, perf}
-        \item {интринсики SSE2 \textbackslash \text{AVX} \textbackslash \text{AVX2}, Профилирование, Оптимизация}
+        \item {интринсики SSE2 \textbackslash \text{AVX} \textbackslash \text{AVX2}}
+        \item {Профилирование, Оптимизация (ускорил в 2.37 раза)}
     \resumeItemListEnd
     \vspace{-2mm}
 
@@ -281,8 +293,9 @@
 
       \resumeItemListStart
         \item реализация алгоритма для построения и отрисовки множества Мандельброта
-        \item {инструменты: C, make}
-        \item {SFML, интринсики SSE2 \textbackslash \text{AVX} \textbackslash \text{AVX2}, Оптимизация}
+        \item {инструменты: C, make, perf}
+        \item {SFML, интринсики SSE2 \textbackslash \text{AVX} \textbackslash \text{AVX2}}
+        \item {Профилирование, Оптимизация (ускорил в 6.8 раз)}
     \resumeItemListEnd
     \vspace{-2mm}
 
@@ -301,7 +314,7 @@
 
     \resumeProject
       {\href{https://github.com/kand1bober/Akinator}{\textcolor{olive}{Акинатор}}} %Project Name
-      {упрощенная версия игры Акинатор} %Project Name, Location Name
+      {собственная версия игры Акинатор} %Project Name, Location Name
 
       \resumeItemListStart
         \item {реализация древовидной структуры данных}
@@ -310,33 +323,22 @@
         \item {инструменты: C, dot, make}
     \resumeItemListEnd
     \vspace{-2mm}
-    
-    \resumeProject
-      {\href{https://github.com/kand1bober/OOSD-Language}{\textcolor{olive}{язык OOSD}}} %Project Name
-      {фронтенд компилятора, частичный бекенд} %Project Name, Location Name
-
-      \resumeItemListStart
-        \item {синтаксический разбор кода методом рекурсивного спуска, построение AST}
-        \item {трансляция узлов AST и таблицы имен в x86-64 ассемблер (не доделано)}
-        \item {инструменты: C, dot, make}
-    \resumeItemListEnd
-    \vspace{-2mm}
-      
   \resumeSubHeadingListEnd
 \vspace{-5.5mm}
 
 
 %-----------Technical skills-----------------
-\section{\textbf{Технические способности и интересы}}
+\section{\textbf{Технические способности}}
  \begin{itemize}[leftmargin=0.05in, label={}]
     \small{\item{
-     \textbf{Языки программирования}{: C, C++, Ruby, Python, x86-64 asm, Verilog} \\
-     \textbf{Инструменты}{: make, CMake, git, perf, IDA, dot} \\
-     \textbf{Софт-скиллы}{: коммуникабельность, работа в команде} \\
-     \textbf{Другое}{: LaTex, Markdown } \\
+     \textbf{Systems \& low-level}{: C, C++, x86-64 asm, SIMD (SSE2/AVX/AVX2), asmjit, perf, ELFIO, QEMU, LLVM (snippy)} \\
+     \textbf{Scripting}{: Python, Ruby} \\
+     \textbf{HDL}{: Verilog} \\
+     \textbf{Tooling}{: Git, Make, CMake, IDA, Graphviz/dot, LaTeX} \\
      % \textbf{Сферы интересов}{: } \\
     }}
  \end{itemize}
+
  \vspace{-16pt}
 
 
